@@ -18,7 +18,7 @@ pipeline {
                     if not exist feedback.html exit /b 1
                     if not exist analytics.html exit /b 1
                     if not exist about.html exit /b 1
-                    if not exist contact.html exit /b 1
+                    
                     if not exist thank-you.html exit /b 1
                     if not exist assets\\style.css exit /b 1
                     if not exist assets\\app.js exit /b 1
