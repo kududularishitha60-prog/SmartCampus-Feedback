@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | SmartCampus</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.page-container { max-width:1000px; margin:55px auto; padding:0 20px; }
+.about-hero { background:linear-gradient(120deg,#eeeaff,#fff); padding:50px; border-radius:20px; margin:25px 0; }
+.about-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin:30px 0; }
+.about-card { background:white; padding:25px; border:1px solid #eeedf5; border-radius:15px; }
+.about-card h3 { margin-bottom:12px; }
+.about-card p,.about-hero p { color:#74768a; }
+@media(max-width:650px) { .about-hero { padding:28px; } .about-grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header class="navbar">
+<a href="index.html" class="logo">SmartCampus<span>.</span></a>
+<nav>
+<a href="index.html">Home</a><a href="submit.html">Submit Feedback</a>
+<a href="feedback.html">Feedback</a><a href="analytics.html">Analytics</a>
+<a href="about.html" class="active">About</a>
+</nav>
+</header>
+
+<main class="page-container">
+<p class="tagline">ABOUT SMARTCAMPUS</p>
+<h1 style="font-size:38px;">Making Campus Life Better</h1>
+
+<section class="about-hero">
+<h2 style="font-size:27px;margin-bottom:15px;">Our Project</h2>
+<p>SmartCampus is a student feedback web application designed to provide a simple way to share opinions about teaching, infrastructure, laboratories, library services, and other campus facilities.</p>
+<p style="margin-top:15px;">The application presents submitted feedback and basic statistics through a user-friendly interface. It demonstrates how web technologies can support continuous improvement in an educational environment.</p>
+</section>
+
+<div class="about-grid">
+<div class="about-card">
+<h3>🎯 Our Objective</h3>
+<p>Make it easy for students to share their experiences and suggestions about campus services.</p>
+</div>
+<div class="about-card">
+<h3>🌟 Our Vision</h3>
+<p>Encourage a campus culture where student opinions contribute to better learning experiences.</p>
+</div>
+<div class="about-card">
+<h3>💡 Our Approach</h3>
+<p>Provide feedback forms, searchable feedback cards, and simple analytics in one application.</p>
+</div>
+</div>
+
+<section class="about-hero">
+<h2 style="margin-bottom:12px;">Technology Behind the Project</h2>
+<p><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+<p><strong>Web Server:</strong> Nginx</p>
+<p><strong>Containerization:</strong> Docker</p>
+<p><strong>Automation:</strong> Jenkins CI/CD pipeline</p>
+<p style="margin-top:15px;">This demonstration stores feedback in browser localStorage. A production system would require a backend, database, authentication, and appropriate access controls.</p>
+</section>
+
+<div style="text-align:center;margin:35px 0;">
+<a href="submit.html" class="btn btn-primary">Share Your Feedback →</a>
+</div>
+</main>
+
+<footer><p>© 2026 SmartCampus Feedback Portal</p></footer>
+</body>
+</html>
+```
